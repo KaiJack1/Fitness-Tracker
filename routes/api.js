@@ -1,5 +1,5 @@
 //Grabbing data from models by id and importing express.
-const db = require("../models");
+const db = require("../models/workout");
 const router = require("express").Router();
 
 

@@ -21,7 +21,7 @@ mongoose.connect(
     }
   );
 //Getting the Routes.
-app.use(require("./routes/api.js").default);
+app.use(require("./routes/api.js"));
 app.use(require("./routes/html.js"));
 //Listening to the server.
 app.listen(PORT, () => {
